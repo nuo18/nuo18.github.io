@@ -106,23 +106,6 @@ h2 {
   display: block;
 }
 
-.video-link {
-  position: relative;
-  display: inline-block;
-}
-
-.video-link::after {
-  content: "▶";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  color: white;
-  opacity: 0.8;
-  pointer-events: none;
-}
-
 .project-info {
   flex: 1;
   min-width: 280px;
