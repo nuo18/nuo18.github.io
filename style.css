@@ -71,15 +71,56 @@ h2 {
   flex-wrap: wrap;
 }
 
-.project.small img {
-  max-width: 300px;
-}
-
 .project video,
 .project img {
   width: 100%;
   max-width: 400px;
   border-radius: 8px;
+}
+
+.project iframe {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+}
+
+.video-link img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.video-link:hover img {
+  opacity: 0.85;
+}
+
+.video-thumb {
+  width: 100%;
+  max-width: 520px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+}
+
+.video-link {
+  position: relative;
+  display: inline-block;
+}
+
+.video-link::after {
+  content: "▶";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+  pointer-events: none;
 }
 
 .project-info {
