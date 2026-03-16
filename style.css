@@ -137,3 +137,38 @@ footer {
   background: #151822;
   color: #aaa;
 }
+
+/* TUTORIAL GRID */
+
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.tutorial-card {
+  display: block;
+  background: #151822;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.15s ease;
+}
+
+.tutorial-card:hover {
+  transform: translateY(-4px);
+}
+
+.tutorial-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.tutorial-card h3 {
+  margin-bottom: 0.4rem;
+}
+
+.tutorial-card p {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
