@@ -1,2 +1,1 @@
-Necessity drives innovation.
-Perfectionism hinders progress.
+Necessity drives innovation. Open source amplifies it.
