@@ -80,7 +80,7 @@ h2 {
 
 .project iframe {
   width: 100%;
-  max-width: 400px;
+  max-width: 520px;
   aspect-ratio: 16 / 9;
   border-radius: 8px;
 }
