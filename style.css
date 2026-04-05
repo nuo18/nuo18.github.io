@@ -75,7 +75,7 @@ h2 {
 .project img,
 .project iframe {
   width: 100%;
-  max-width: 520px;
+  max-width: 420px;
   aspect-ratio: 16 / 9;
   border-radius: 8px;
 }
