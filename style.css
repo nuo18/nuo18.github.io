@@ -72,24 +72,12 @@ h2 {
 }
 
 .project video,
-.project img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-}
-
+.project img,
 .project iframe {
   width: 100%;
   max-width: 520px;
   aspect-ratio: 16 / 9;
   border-radius: 8px;
-}
-
-.video-link img {
-  width: 100%;
-  max-width: 480px;
-  border-radius: 8px;
-  cursor: pointer;
 }
 
 .video-link:hover img {
