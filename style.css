@@ -99,6 +99,15 @@ h2 {
   min-width: 280px;
 }
 
+/* PROJECT DESCRIPTION (No Bullets) */
+.project-desc {
+  margin: 0.5rem 0; /* Matches the spacing your old bullet points had */
+}
+
+.project-desc p {
+  margin-bottom: 0.5rem; /* Adds a clean gap between sentences */
+}
+
 .tech {
   color: #9aa4ff;
   font-size: 0.9rem;
@@ -197,4 +206,23 @@ footer {
   .coursework-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
+}
+
+/* TECH TAGS */
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  background: #2a2f45; /* Muted dark blue-gray matching your section borders */
+  color: #9aa4ff;      /* Matches your existing tech text color */
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
